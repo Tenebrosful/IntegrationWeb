@@ -1,0 +1,39 @@
+p{
+    color: brown;
+}
+
+div > p:first-of-type{
+    background-color: midnightblue;
+}
+
+div > p:last-of-type{
+    background-color: peachpuff;
+}
+
+div > p:nth-of-type(5n+3){
+    border: 2px solid grey;
+}
+
+div:nth-of-type(2) > p:nth-of-type(4n+2){
+    border: 2px solid red;
+}
+
+div > p[title]{
+    background-color: palevioletred;
+}
+
+div:nth-of-type(3) > p[title] + p{
+    font-size: 20px;
+}
+
+div:nth-of-type(4) > p[id*="yo"]{
+    background-color: coral;
+}
+
+div:nth-of-type(4) > p[id="yo"]{
+    background-color: darkcyan;
+}
+
+div:nth-of-type(1) > p:nth-of-type(3n+2){
+    content: ";-)";
+}
