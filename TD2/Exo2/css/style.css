@@ -1,0 +1,40 @@
+p#one{
+    height: auto;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+p#two{
+    overflow: scroll;
+    text-align: right;
+}
+
+p#three{
+    overflow: hidden;
+    word-spacing: .5rem;
+}
+
+p#four{
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+p#five{
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow: scroll;
+    height: 10rem;
+}
+
+span#ib1{
+    vertical-align: bottom;
+}
+
+span#ib2{
+    vertical-align: top;
+}
+
+span#ib3{
+    vertical-align: baseline;
+}
