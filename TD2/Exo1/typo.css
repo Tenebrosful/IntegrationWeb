@@ -1,0 +1,163 @@
+body{
+    margin: 5px 10px;
+}
+
+/*
+    Titres
+ */
+h1, h2, h3, h4, h5, h6{
+    color: black;
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+}
+h1{
+    font-size: 24px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 23px;
+    font-weight: bold;
+}
+h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+h4{
+    font-size: 21px;
+    font-weight: bold;
+}
+h5{
+    font-size: 20px;
+    font-weight: normal;
+}
+h6{
+    font-size: 19px;
+    font-weight: normal;
+}
+
+/*
+    Sous-titres
+ */
+small, .sous-titre{
+    color: gray;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: lighter;
+}
+h1 > small, h1.sous-titre{
+    font-size: 19px;
+}
+h2 > small, h2.sous-titre{
+    font-size: 18px;
+}
+h3 > small, h3.sous-titre{
+    font-size: 17px;
+}
+h4 > small, h4.sous-titre{
+    font-size: 16px;
+}
+h5 > small, h5.sous-titre{
+    font-size: 15px;
+}
+h6 > small, h6.sous-titre{
+    font-size: 14px;
+}
+
+/*
+    Paragraphe
+ */
+p{
+    margin-bottom: 15px;
+}
+
+/*
+    Balises inline
+ */
+abbr{
+    text-decoration: underline;
+    font-style: italic;
+}
+del{
+    color: red;
+    text-decoration: red line-through;
+}
+ins{
+    color: inherit;
+    text-decoration: inherit;
+}
+strong{
+    font-weight: bolder;
+}
+em{
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: red underline;
+}
+u{
+    text-decoration: red underline dotted;
+}
+
+/*
+    Classes de transformation
+ */
+.align-gauche{
+    text-align: left;
+}
+.align-centre{
+    text-align: center;
+}
+.align-droite{
+    text-align: right;
+}
+.align-justifier{
+    text-align: justify;
+}
+.majuscule{
+    text-transform: uppercase;
+}
+.minuscule{
+    text-transform: lowercase;
+}
+
+/*
+    Liste
+ */
+ul{
+    margin-left: 15px;
+}
+ul > li{
+    list-style: inside;
+}
+ul > li.square{
+    list-style: square;
+}
+ul > li.aucuneDecoration{
+    list-style: none;
+}
+
+/*
+    quote & blockquote
+ */
+blockquote{
+    background-color: lightgray;
+    text-align: justify;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    padding: 15px;
+}
+blockquote > p:before{
+    content: "“";
+    padding-right: 10px;
+}
+blockquote > p:after{
+    content: "”";
+    padding-left: 10px;
+}
+code, pre, kbd{
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+}
+
+code{
+    background-color: whitesmoke;
+}
+
+kbd{
+    border: #cccccc solid 1px;
+}
