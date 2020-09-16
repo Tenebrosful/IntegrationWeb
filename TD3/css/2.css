@@ -1,0 +1,22 @@
+.b1{
+    width: 100px;
+    padding: 20px 15px 20px 10px;
+    border: purple solid 2px;
+}
+
+.j1{
+    box-sizing: border-box;
+    width: 129px;
+}
+
+.b2{
+    box-sizing: border-box;
+    width: 20%;
+    padding: 20px;
+    border: green solid 2vw;
+}
+
+.j2{
+    box-sizing: border-box;
+    width: 20%;
+}
