@@ -1,0 +1,32 @@
+header{
+    color: whitesmoke;
+    background-color: deeppink;
+    text-align: center;
+    padding: 2em;
+}
+
+section{
+    padding: 2em 1em;
+}
+
+h2{
+    font-size: 16pt;
+    margin-bottom: 1em;
+}
+
+p{
+    margin: 1em 0.5em;
+}
+
+.important{
+    color: mediumvioletred;
+    border-left: 3px solid darkred;
+    padding-left: 0.4em;
+}
+
+footer{
+    background-color: darkslategray;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0.2em 0;
+}
