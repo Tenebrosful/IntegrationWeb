@@ -1,0 +1,18 @@
+img{
+    width: 500px;
+    max-width: 100%;
+}
+
+p{
+    clear: both;
+    background-color: gray;
+    margin: 0;
+}
+
+#img1{
+    float: right;
+}
+
+#img2{
+    float: left;
+}
