@@ -1,0 +1,26 @@
+div:not(.main), ul, li{
+    padding: 5px;
+    border: 1px deeppink dashed;
+}
+
+.menu{
+    background-color: black;
+    color: antiquewhite;
+}
+
+div.menu > ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 80em){
+    div.menu > ul{
+        box-sizing: border-box;
+        height: 80vh;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
