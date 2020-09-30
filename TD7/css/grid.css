@@ -41,3 +41,82 @@ body {
   grid-template-rows: repeat(3, 8rem);
   grid-auto-rows: 4rem;
 }*/
+
+/* Exercice 2
+.grid_container{
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 5rem;
+}
+.grid_item{
+  background-color: black;
+  color: whitesmoke;
+}
+
+.grid_item:nth-child(4){
+  grid-column: span 3;
+}
+
+.grid_item:nth-child(6){
+  grid-column: span 2;
+}
+
+.grid_item:nth-child(7){
+  grid-row: span 3;
+}
+
+.grid_item:nth-child(10){
+  grid-column: span 2;
+  grid-row: span 2;
+}*/
+
+/* Exercice 3
+.grid_container{
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 5rem;
+}
+.grid_item{
+  background-color: black;
+  color: whitesmoke;
+}
+
+.grid_item:nth-child(4){
+  grid-column: span 3;
+}
+
+.grid_item:nth-child(6){
+  grid-column: span 2;
+}
+
+.grid_item:nth-child(7){
+  grid-row: span 3;
+}
+
+.grid_item:nth-child(10){
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid_item:nth-child(16){
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.grid_item:nth-child(13){
+  grid-column: 4 / 6;
+  grid-row: 1 / 4;
+}
+
+.grid_item:nth-child(8){
+  grid-column: 4;
+  grid-row: 4 / 7;
+}
+
+.grid_item:nth-child(9){
+  grid-column: 3 / 5;
+  grid-row: 4;
+}
+
+.grid_item:nth-child(20){
+  grid-column: 6;
+  grid-row: 7;
+}*/
