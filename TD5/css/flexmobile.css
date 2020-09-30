@@ -1,0 +1,34 @@
+body{
+    color: antiquewhite;
+    background-color: coral;
+}
+
+header{
+    box-sizing: border-box;
+    background-color: darkseagreen;
+    padding: 0.2em;
+    height: 3em;
+}
+
+main{
+    overflow: scroll;
+}
+
+.listeItems{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
+.item{
+    display: inline;
+    margin: 2em;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: center;
+    width: 20%;
+    height: auto;
+    background-color: #31b9ff;
+}
