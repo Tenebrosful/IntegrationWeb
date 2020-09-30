@@ -14,3 +14,30 @@ body {
 .grid_container {
   display: grid;
 }
+
+/* Exercice 1 */
+
+/* 1
+.grid_container{
+  grid-template-columns: 25em 10em 200px 20%;
+  grid-template-rows: 250px 10em 10% 15%;
+}*/
+
+/* 2
+.grid_container{
+  grid-template-columns: 200px 3fr 2fr 1fr;
+}*/
+
+/* 3
+.grid_container{
+  grid-template-columns: 200px 3fr 2fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  grid-auto-rows: 200px;
+}*/
+
+/* 4
+.grid_container{
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 8rem);
+  grid-auto-rows: 4rem;
+}*/
