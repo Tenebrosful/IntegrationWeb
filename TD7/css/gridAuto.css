@@ -1,0 +1,25 @@
+
+body {
+    padding: 0;
+    height: 100vh;
+}
+/* Fichier de départ */
+.grid_item {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    text-align: center;
+    line-height: 100px;
+}
+
+.grid_container_fill, .grid_container_fit {
+    display: grid;
+}
+
+.grid_container_fill{
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+}
+
+.grid_container_fit{
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+
+}

@@ -1,0 +1,46 @@
+
+body {
+    padding: 0;
+    height: 100vh;
+}
+/* Fichier de départ */
+.grid_item {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    text-align: center;
+    line-height: 100px;
+}
+
+.grid_container {
+    display: grid;
+}
+
+/* Cas 1
+.grid_container{
+    grid-template-columns: minmax(100px,15%) minmax(15rem, 25rem) minmax(15rem, 30%) ;
+}*/
+
+/* Cas 2
+.grid_container{
+    grid-template-columns: repeat(5, minmax(100px, 200px));
+}*/
+
+/* Cas 3
+.grid_container{
+    grid-template-columns: repeat(5, minmax(100px, 20%));
+}*/
+
+/* Cas 4
+.grid_container{
+    grid-template-columns: minmax(150px, 25%) repeat(4, 1fr);
+}*/
+
+/* Cas 5
+.grid_container{
+    grid-template-columns: repeat(5, minmax(10rem, 1fr));
+}*/
+
+/* Cas 6 */
+.grid_container{
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+}
