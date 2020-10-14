@@ -1,0 +1,23 @@
+.alert, .alert-information, .message-info, .alert-warning, .attention, .alert-danger, .cefini, .alert-success {
+  width: 100%;
+  text-align: center;
+  background-color: #5d5757;
+}
+
+.alert-success {
+  background-color: #6fb74b;
+}
+
+.alert-danger, .cefini {
+  background-color: #ca2e2e;
+}
+
+.alert-warning, .attention {
+  background-color: #d9d93a;
+}
+
+.alert-information, .message-info {
+  background-color: #1b81b3;
+}
+
+/*# sourceMappingURL=TD8.2.css.map */

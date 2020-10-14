@@ -1,0 +1,10 @@
+@import "_content";
+
+$content_background : #b06848;
+
+section{
+  @extend .content;
+  border: solid 2px black;
+  background-color: $content_background;
+  margin: 20px;
+}

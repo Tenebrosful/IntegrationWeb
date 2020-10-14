@@ -1,0 +1,13 @@
+@import "_alert";
+
+.cefini{
+  @extend .alert-danger;
+}
+
+.attention{
+  @extend .alert-warning;
+}
+
+.message-info{
+  @extend .alert-information;
+}

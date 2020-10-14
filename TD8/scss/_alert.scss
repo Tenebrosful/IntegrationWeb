@@ -1,0 +1,34 @@
+$largeur : 100% !default;
+$text-align : center !default;
+
+$bg-default : #5d5757 !default;
+$bg-success : #6fb74b !default;
+$bg-danger : #ca2e2e !default;
+$bg-warning : #d9d93a !default;
+$bg-information : #1b81b3 !default;
+
+.alert{
+  width: $largeur;
+  text-align: $text-align;
+  background-color: $bg-default;
+}
+
+.alert-success{
+  @extend .alert;
+  background-color: $bg-success;
+}
+
+.alert-danger{
+  @extend .alert;
+  background-color: $bg-danger;
+}
+
+.alert-warning{
+  @extend .alert;
+  background-color: $bg-warning;
+}
+
+.alert-information{
+  @extend .alert;
+  background-color: $bg-information;
+}
