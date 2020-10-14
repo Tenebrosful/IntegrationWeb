@@ -23,6 +23,7 @@ test.php
 composer.phar
 node_modules/
 *.ini
+.DS_Store
 
 # External tool builders
 .externalToolBuilders/
