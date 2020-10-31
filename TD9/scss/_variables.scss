@@ -1,0 +1,24 @@
+$largeur: 100% !default;
+$text-align: center !default;
+
+$bg-colors: (
+        "default": #5d5757,
+        "success": #6fb74b,
+        "danger": #ca2e2e,
+        "warning" : #d9d93a,
+        "information": #1b81b3
+) !default;
+
+$button-tailles: (
+        "small": 20%,
+        "medium": 50%,
+        "large": 100%
+) !default;
+
+$button-styles: (
+        "default": solid 2px #5d5757,
+        "success": solid 2px #6fb74b,
+        "danger": solid 2px #ca2e2e,
+        "warning" : solid 2px #d9d93a,
+        "information": solid 2px #1b81b3
+) !default;

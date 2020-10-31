@@ -1,0 +1,15 @@
+@import "variables";
+
+@mixin alert-structure($largeur, $text-align){
+  width: $largeur;
+  text-align: $text-align;
+}
+
+@mixin alert-color($bg-color){
+  background-color: $bg-color;
+}
+
+@mixin alert($type){
+  @include alert-structure($largeur, $text-align);
+  @include alert-color(map-get($bg-colors, $type));
+}

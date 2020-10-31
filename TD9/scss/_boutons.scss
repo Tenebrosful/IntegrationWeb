@@ -1,0 +1,25 @@
+@import "variables";
+
+@mixin bouton-bg-color($bg-color){
+  background-color: $bg-color;
+}
+
+@mixin bouton-taille($taille){
+  width: $taille;
+}
+
+@mixin bouton-style($border){
+  border: $border;
+}
+
+@mixin bouton($bg-color, $taille, $border){
+  @include bouton-taille($taille);
+  @include bouton-bg-color($bg-color);
+  @include bouton-style($border);
+}
+
+@mixin boutonType($type, $taille){
+  @include bouton-taille(map-get($button-tailles, $type));
+  @include bouton-bg-color(map-get($bg-colors, $taille));
+  @include bouton-style(map-get($button-styles, $type));
+}
