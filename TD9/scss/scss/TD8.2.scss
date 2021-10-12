@@ -1,0 +1,13 @@
+@import "_alert";
+
+.cefini{
+  @include alert("danger");
+}
+
+.attention{
+  @include alert("warning");
+}
+
+.message-info{
+  @include alert("information");
+}
