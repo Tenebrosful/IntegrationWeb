@@ -1,0 +1,10 @@
+@import "variables";
+
+@mixin conteneur_ligne($nbr_colone){
+  display: grid;
+  grid-template-columns: repeat($nbr_colone, 1fr);
+}
+
+@mixin place_element($taille-colone){
+  grid-row: span $taille-colone;
+}

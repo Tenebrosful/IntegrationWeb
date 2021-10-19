@@ -1,0 +1,35 @@
+@import "variables";
+
+$justify: flex-start !default;
+$orientation: row !default;
+
+@mixin navbar-bg-color($bg-color){
+  background-color: $bg-color;
+}
+
+@mixin navbar-jusitfy($justify){
+  justify-content: $justify;
+}
+
+@mixin navbar-orientation($orientation){
+  flex-direction: $orientation;
+}
+
+@mixin navbar-style($border){
+  border: $border;
+}
+
+@mixin navbar($bg-color, $justify, $border, $orientation){
+  display: flex;
+  @include navbar-jusitfy($justify);
+  @include navbar-bg-color($bg-color);
+  @include navbar-style($border);
+  @include navbar-orientation($orientation);
+}
+
+@mixin navbarType($type, $justify, $orientation){
+  @include navbar-jusitfy($justify);
+  @include navbar-bg-color(map-get($bg-colors, $type));
+  @include navbar-style(map-get($button-styles, $type));
+  @include navbar-orientation($orientation);
+}

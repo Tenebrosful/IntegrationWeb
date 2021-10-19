@@ -19,7 +19,7 @@
 }
 
 @mixin boutonType($type, $taille){
-  @include bouton-taille(map-get($button-tailles, $type));
-  @include bouton-bg-color(map-get($bg-colors, $taille));
+  @include bouton-taille(map-get($button-tailles, $taille));
+  @include bouton-bg-color(map-get($bg-colors, $type));
   @include bouton-style(map-get($button-styles, $type));
 }
