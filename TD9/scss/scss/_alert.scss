@@ -1,0 +1,22 @@
+$width_default : 100% !default;
+$text-align_default : center !default;
+
+$bg-default : #5d5757 !default;
+$bg-success : #6fb74b !default;
+$bg-danger : #ca2e2e !default;
+$bg-warning : #d9d93a !default;
+$bg-information : #1b81b3 !default;
+
+@mixin alert-color($type: "default"){
+  background-color: $bg-#{$type};
+}
+
+@mixin alert-base($width: $width_default, $text-align: $text-align_default){
+  width: $width;
+  text-align: $text-align;
+}
+
+@mixin alert($type: "default", $width: $width_default, $text-align: $text-align_default) {
+  @include alert-base($width, $text-align);
+  @include alert-color($type);
+}
