@@ -1,0 +1,22 @@
+@import "alert";
+@import "boutons";
+
+button {
+  @include bouton(transparent, 100%, none)
+}
+
+.alert {
+  @include alert("default");
+}
+
+.alert-success {
+  @include alert("success");
+}
+
+.cefini {
+  $bg-colors: (
+          "danger": #991111
+  );
+  @import "alert";
+  @include alert("danger");
+}
